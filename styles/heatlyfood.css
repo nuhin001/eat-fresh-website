@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared style */
+.text-primary{
+    color: #FBA24F;
+}
+
+.btn-primary{
+    padding: 22px 43px;
+    border-radius:100px;
+    border-color: #FFFFFF;
+    background-color:#FBA24F;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.8rem;
+
+}
+
+
+
+/* header style ( banner style) */
+
+.header{
+    background-color: #FFFFFF;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px 100px 100px;
+    align-items: center;
+}
+.banner-content{
+    max-width: 599px;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 3.8rem;
+    color: #575757;
+}
+.banner-description{
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #828282;  
+}
+.banner-pic{
+    width: 792px;
+}
+
+/* main section style */
+.main{
+    
+}
+
+.about-class{
+    display: flex;
+    justify-content: space-between;
+    margin:100px;
+    align-items: center;
+    background-color: rgba(252, 143, 73, 0.1);
+    background-image: url('../images/shapes/7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+     border-radius:10px;
+}
+
+.about-pic{
+    width:338px;
+    padding: 64px 198px 0px 199px;
+}
+
+.about-title{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #707070;
+}
+.about-description{
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: rgba(24, 25, 31, 1);
+}
+
+.button-secendary{
+    padding: 22px 43px;
+    border-radius:100px;
+    border-color: #FFFFFF;
+    background-color: #ff1e1e93;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+/* my recpies */
+.myrecpies{
+    margin-top: 70px;
+    text-align: center;
+
+}
+
+.sec-title{
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #676767;
+
+}
+.sec-description{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #252525;
+ 
+}
+
+/* "myrecipe-name */
+
+.recipe-conatainer{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.recipecart-1{
+    padding: 40px;
+    margin: 100px;
+    text-align: center;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+
+}
+
+
+.recipe-image{
+    width: 550px;
+}
+
+.recipe-title{
+    font-weight: bolder;
+    font-size: 1.8rem;
+    color: #252525;
+}
+
+.recipe-description{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
