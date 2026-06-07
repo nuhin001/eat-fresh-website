@@ -69,7 +69,7 @@
     background-image: url('../images/shapes/7.png');
     background-repeat: no-repeat;
     background-size: cover;
-     border-radius:10px;
+    border-radius:10px;
 }
 
 .about-pic{
@@ -151,4 +151,28 @@
     font-size: 1.2rem;
 }
 
+/* follower section style */
 
+.follower-sec{
+    display: flex;
+    gap: 50px;
+    margin: 100px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.followers{
+    padding: 64px 165px;
+
+
+}
+.followers-title{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.follower-description{
+    font-weight: 400;
+    font-size: 1rem;
+
+}
