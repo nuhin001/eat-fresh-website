@@ -118,11 +118,12 @@
  
 }
 
-/* "myrecipe-name */
+/* myrecipe-name */
 
 .recipe-conatainer{
     display: flex;
     gap: 20px;
+    /* justify-content: center; */
     
 }
 
@@ -175,4 +176,25 @@
     font-weight: 400;
     font-size: 1rem;
 
+}
+
+/* footer section style */
+
+.footer{
+    background-color: rgba(11, 13, 23, 1);
+}
+
+.footer-column{
+    text-align: center;
+    column-gap: 37px;
+    padding: 37px 500px 115px 500px
+    
+}
+.footer-title{
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #5B5B5B;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 1);
 }
